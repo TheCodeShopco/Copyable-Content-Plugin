@@ -1,9 +1,3 @@
-var copyContentOptions = {
-	buttonStyle : "primary",
-  	buttonInitialText : "Copy content",
-  	buttonSuccessText : "Copied!",
-}
-
 function inititaliseCopyContent() {
 
     function createCopyButton() {
