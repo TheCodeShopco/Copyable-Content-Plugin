@@ -21,8 +21,10 @@ function inititaliseCopyContent() {
                 navigator.clipboard.writeText(copyContent.childNodes[0].textContent).then(() => {
                     let originalText = button.innerHTML;
                     button.innerHTML = `${copyContentOptions.buttonSuccessText}`;
+                    button.classList.add('copied');
                     setTimeout(() => {
                         button.innerHTML = originalText;
+                        button.classList.remove('copied');
                     }, 3000);
                 }).catch(err => {
                     console.error('Failed to copy: ', err);
