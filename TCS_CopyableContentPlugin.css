@@ -1,9 +1,5 @@
-.source-code {
-    position: relative;
-  }
-  
-  .copy-content_button {
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
+.copy-content_button {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
